@@ -13,6 +13,6 @@ request(url, (err, response, body) => {
       if (error) {
         console.log(err);
       }
-  });
-}
+    });
+  }
 });
