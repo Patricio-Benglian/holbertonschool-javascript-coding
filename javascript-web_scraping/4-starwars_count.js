@@ -11,7 +11,7 @@ request(url, (err, response, body) => {
     let filmsWithWedge = 0;
     listOfFilms.results.forEach(film => {
       film.characters.forEach(chars => {
-        if (chars.includes('https://swapi-api.hbtn.io/api/people/18/')) {
+        if (chars.includes('18')) {
           filmsWithWedge += 1;
         }
       });
